@@ -1,0 +1,18 @@
+LET 
+  INT p, q, r;
+IN
+  READ p;
+  READ q;
+  READ r;
+/*
+  n = p - q;
+ 
+  k = 1;
+  WRITE(q);
+*/
+END
+
+
+//c = 0x10;
+
+

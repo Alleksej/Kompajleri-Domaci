@@ -1,0 +1,29 @@
+LET
+    INT p, q, r;
+    //BOOL true;
+    DOUBLE a, l; 
+
+IN
+    a := 10;
+    f := 5;
+    b := 2.5;
+    c := true;
+    d := "Test";
+    WRITE a + 5;
+    WRITE 2.5 / 2.0;
+    WRITE a % f;
+    WRITE a >= b;
+    IF (!a != f) THEN x := 2; ELSE x := 8; FI;
+    IF (a && f) THEN x := 2; ELSE x := 8; FI;
+    IF (a <= f) THEN x := 2; ELSE x := 8; FI;
+    IF (a == f) THEN x := 2; ELSE x := 8; FI;
+    WHILE y < x
+    DO
+        y := y + 30;
+        y := x * y;
+    END;
+    /*
+    IF (a =error= f) THEN x := 2; ELSE x := 8; FI;
+    */
+    WRITE c;
+END
